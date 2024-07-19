@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo{
+    width: calc(50% - 20px);
+    height:calc((35vw - 20px ) / 16 * 9);  
+
+background-color: black;
+margin: 10px;
+background-size: cover;
+background-position: center;
+transition: all 0.5s ease;
+}
+.photo:hover{
+    transform: rotate(3deg) scale(1.07);
+}
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 48px;
+}
+.photo :hover{
+    transform: rotate(3deg) scale(1.07);
+}
+.photo1{
+    background-image: url(img/1612781001_215-p-goluboi-fon-bravl-stars-240.jpg);
+}
+.photo2{
+    background-image: url(img/1612802436_212-p-bravo-stars-goluboi-fon-247.jpg);
+}
+.photo3{
+    background-image: url(img/1613300094_211-p-sinii-fon-bravl-stars-235.jpg);
+}
+.photo4{
+    background-image: url(img/1614274319_45-p-chernii-fon-bravl-stars-50.jpg);
+}
+.photo5{
+    background-image: url(img/1614528681_145-p-bravo-stars-na-belom-fone-165.png);
+}
+.photo6{
+    background-image: url(img/1653700821_35-celes-club-p-fon-iz-bravl-stars-krasivie-36.jpg);
+}
+.photo7{
+    background-image: url(img/1653700821_35-celes-club-p-fon-iz-bravl-stars-krasivie-36.jpg);
+}
+.photo8{
+    background-image: url(img/1680685516_papik-pro-p-posteri-s-bravl-starsom-18.jpg);
+}
+.photo9{
+    background-image: url(img/1698484908_klev-club-p-risunki-boss-iz-bravl-stars-40.jpg);
+}
+.photo10{
+    background-image: url(img/1663676517_g-4.jpg);
+}
+.photo11{
+    background-image: url(img/покомокослёко.png);
+}
+.photo12{
+    background-image: url(img/Brawl-Stars-Gene-and-Darryl.png);
+}
+.photo13{
+    background-image: url(img/спуйк.png);
+}
+.photo14{
+    background-image: url(img/1684907115_polinka-top-p-kartinki-greya-iz-bravl-stars-krasivo-17.jpg);
+}
+  
+    
+
+
+
